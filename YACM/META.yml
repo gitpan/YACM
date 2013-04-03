@@ -1,29 +1,23 @@
 ---
 name: YACM
-version: 0.1.1
+version: 0.2
 author:
    - Alessandro Pioli <apioli@cpan.org>
- license: perl
+ license: perl_2
  distribution_type: module
  requires:
    Config: 0
    Cwd: 0
    Data::Dumper: 0
    ExtUtils::Install: 0
-   File::Basename: 0
-   File::Compare: 0
-   File::Copy: 0
-   File::Find: 0
-   File::Path: 0
-   File::Spec: 0
    IO::File: 0
    perl: 5.00
+   YAML: 0.35
  recommends:
    Archive::Tar: 1.00
    ExtUtils::Install: 0.3
    ExtUtils::ParseXS: 2.02
    Pod::Text: 0
-   YAML: 0.35
  build_requires:
    Test: 0
  resources:
